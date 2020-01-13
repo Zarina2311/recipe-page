@@ -1,0 +1,33 @@
+ /*Background color of the web page*/
+body {
+      background-color: rgba(201, 76, 76, 0.281);
+      }
+
+/*Styling for the header*/
+h1 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color:rgb(106, 107, 109);
+   }
+
+/*Styling for the paragraph*/   
+p {
+    font-style: italic;
+    font-size: 18px;
+    color:rgb(138, 136, 136);
+  }
+
+/*Styling for header3*/
+h3 {
+    font-size: 25px;
+    font-family: cursive;
+    color:rgb(122, 117, 117);
+  }
+
+/*Styling for both ordered and unordered lists*/
+ol, ul {
+    color:rgb(255, 255, 255);
+  }
+
+
+
