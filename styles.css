@@ -8,8 +8,7 @@ h1 {
     font-size: 40px;
     font-family: 'Lobster', cursive;
     color:rgb(124, 69, 69);
-    text-align: center;
-    margin:0px;
+    margin: 15px;
    }
 
 /*Styling for the paragraph*/   
@@ -47,13 +46,16 @@ img {
 .left {
     margin: 20px;
     float: left;
+    width: 600px;
   }
 
 .right {
     display: inline-block;
-    /* width: 600px; */
-    float: right;
+    width: 600px;
+    float: left;
     margin: 20px;
     padding-top: 35px;
+    margin-left: 30px;
   }
 
+ "Complete styling and layout."*/
