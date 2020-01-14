@@ -8,6 +8,8 @@ h1 {
     font-size: 40px;
     font-family: 'Lobster', cursive;
     color:rgb(124, 69, 69);
+    text-align: center;
+    margin:0px;
    }
 
 /*Styling for the paragraph*/   
@@ -16,6 +18,7 @@ p {
     font-size: 18px;
     color:rgb(119, 114, 114);
     width: 600px;
+    margin-top: 0px;
   }
 
 /*Styling for header3*/
@@ -28,7 +31,6 @@ h3 {
 /*Styling for ordered lists*/
 ol {
     color:rgb(119, 114, 114);
-    float: left;
   }
 
 /*Styling for unordered lists*/
@@ -39,17 +41,19 @@ ul {
 /*Styling for the image*/
 img {
     float: left;
+    padding-bottom: 15px;
   }
 
-:left {
-    width: 600px;
+.left {
     margin: 20px;
+    float: left;
   }
 
-:right {
+.right {
     display: inline-block;
-    width: 600px;
+    /* width: 600px; */
+    float: right;
+    margin: 20px;
+    padding-top: 35px;
   }
-
-
 
