@@ -25,13 +25,30 @@ h3 {
     color:rgb(124, 69, 69);
   }
 
-/*Styling for both ordered and unordered lists*/
-ol, ul {
+/*Styling for ordered lists*/
+ol {
     color:rgb(119, 114, 114);
+    float: left;
+  }
+
+/*Styling for unordered lists*/
+ul {
+    color:rgb(119, 114, 114);
+}
+
+/*Styling for the image*/
+img {
+    float: left;
   }
 
 :left {
-    margin: 2in 3in;
+    width: 600px;
+    margin: 20px;
+  }
+
+:right {
+    display: inline-block;
+    width: 600px;
   }
 
 
